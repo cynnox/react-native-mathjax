@@ -68,7 +68,7 @@ class MathJax extends React.Component {
     const html = this.wrapMathjax(this.props.html);
 
     const INJECTED_JAVASCRIPT = `
-    let mathjaxScriptPath = 'file:///android_asset/MathJaxView/mathJaxView.min.js'
+    let mathjaxScriptPath = 'file:///android_asset/MathJaxView/mathJaxWebView.min.js'
     var script = document.createElement('script');
     script.src =mathjaxScriptPath;
      document.appendChild(script);`;
